@@ -1,17 +1,194 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilos.css">
-    <title>GitHub</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEwyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="/img/" type="image/x-icon" />
+    <link rel="stylesheet" href="estilos.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;500&family=Oswald:wght@300&display=swap"
+        rel="stylesheet">
+    <title>PreEntrega2</title>
 </head>
+
 <body>
-    <h1>clase github</h1>
-    <em>curso de github</em>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, repellat minus? Quam est quidem quasi fuga officia tempore, deleniti ducimus quo? Recusandae, illo maxime adipisci ratione neque repellendus magni. Aspernatur!</p>
-    <strong>curso de html</strong>
-    <marquee behavior="" direction="">bienvenidos a git</marquee>
+
+    <div class="logo">
+        CAFETERÍA<span>LOLA</span>
+    </div>
+
+    <header>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="./pages/productos.html">Productos</a>
+            <a href="./pages/servicios.html">Servicios</a>
+            <a href="./pages/contacto.html">Contacto</a>
+            <a href="./pages/nosotros.html">Nosotros</a>
+        </nav>
+        <section class="textos-header">
+            <h1>Un café sumamente de calidad puro 100%</h1>
+            <h2>Reconocido mundialmente por los grandes países</h2>
+        </section>
+        <div class="wave" style="height: 150px; overflow: hidden">
+            <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%">
+                <path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                    style="stroke: none; fill: rgba(255, 255, 255, 0.671)"></path>
+            </svg>
+        </div>
+    </header>
+    <main>
+        <section class="contenedor sobre-nosotros">
+            <h2 class="titulo">Nuestra gente</h2>
+            <div class="contenedor-sobre-nosotros">
+                <img src="/img/startup-594090_1920.jpg" alt="" class="imagen-about-us" />
+                <div class="contenido-textos"></div>
+                <h3><span>1</span>Los mejores cafés</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Et ratione
+                    magnam fugit! Saepe, laudantium atque? Tempore rem, quia, corporis
+                    iure eveniet nemo, exercitationem at nam eos expedita voluptatem.
+                    Voluptates, expedita.
+                </p>
+                <h3><span>2</span>La mejor atención</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Et ratione
+                    magnam fugit! Saepe, laudantium atque? Tempore rem, quia, corporis
+                    iure eveniet nemo, exercitationem at nam eos expedita voluptatem.
+                    Voluptates, expedita.
+                </p>
+            </div>
+        </section>
+        <section class="portafolio">
+            <div class="contenedor">
+                <h2 class="titulo">Portafolio</h2>
+                <div class="galeria-port">
+                    <div class="imagen-port">
+                        <img src="/img/cafe-1869656_1920.jpg" alt="" />
+                        <div class="hover-galeria">
+                            <p>Nuestra selección</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="/img/coffee-206142_1920.jpg" alt="" />
+                        <div class="hover-galeria">
+                            <p>Nuestra selección</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="/img/coffee-2560260_1920.jpg" alt="" />
+                        <div class="hover-galeria">
+                            <p>Nuestra selección</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="/img/coffee-563800_1920.jpg" alt="" />
+                        <div class="hover-galeria">
+                            <p>Nuestra selección</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="/img/coffee-5495609_1920.jpg" alt="" />
+                        <div class="hover-galeria">
+                            <p>Nuestra selección</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="/img/dessert-352475_1920.jpg" alt="" />
+                        <div class="hover-galeria">
+                            <p>Nuestra selección</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="/img/dessert-5712284_1920.jpg" alt="" />
+                        <div class="hover-galeria">
+                            <p>Nuestra selección</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="/img/coffee-beans-2258839_1920.jpg" alt="" />
+                        <div class="hover-galeria">
+                            <p>Nuestra selección</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="clientes contenedor">
+            <h2 class="titulo">Que dicen nuestros clientes</h2>
+            <div class="cards"></div>
+            <div class="card">
+                <img src="/img/man-2557408_1920.jpg" alt="" />
+                <div class="contenido-texto-card">
+                    <h4>Name</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores,
+                        sunt!
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="/img/cafe-5972490_1920.jpg" alt="" />
+                <div class="contenido-texto-card">
+                    <h4>Name</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores,
+                        sunt!
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="servicios">
+            <div class="contenedor">
+                <h2 class="titulo">Nuestors servicios</h2>
+                <div class="servicio-cont">
+                    <div class="servicio-ind">
+                        <img src="/img/coffee-6887653.png" alt="" />
+                        <h3>Name</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio,
+                            veniam.
+                        </p>
+                    </div>
+                    <div class="servicio-ind">
+                        <h3>Name</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio,
+                            veniam.
+                        </p>
+                    </div>
+                    <div class="servicio-ind">
+                        <img src="/img/cafe-3537801_1920.jpg" alt="" />
+                        <h3>Name</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio,
+                            veniam.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="contenedor-footer">
+            <div class="content-foo">
+                <h4>Teléfono</h4>
+                <p>1123425581</p>
+            </div>
+            <div class="content-foo">
+                <h4>Email</h4>
+                <p>1123425581</p>
+            </div>
+            <div class="content-foo">
+                <h4>Ubicación</h4>
+                <p>1123425581</p>
+            </div>
+        </div>
+        <h2 class="titulo-final">&copy; Agustín Barrero | Café Lola </h2>
+    </footer>
 </body>
+
 </html>
